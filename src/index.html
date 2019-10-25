@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-
 <html lang="en">
 
 <head>
@@ -12,28 +10,160 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center sticky-top" id="header">
-        <a class="navbar-brand" href="#">
-            WonderLand
-        </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse ml-4" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#" id="info-button">About Festival</a>
-          <a class="nav-item nav-link active" href="#" id="gallery-button">Gallery</a>
-          <a class="nav-item nav-link active" href="#" id="order-button">Order tickets</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-center sticky-top" id="header">
+    <a class="navbar-brand" href="#" id="nav-btn">
+        WonderLand Festival
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-4" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#" id="info-button">About Festival</a>
+        <a class="nav-item nav-link active" href="#" id="gallery-button">Gallery</a>
+        <a class="nav-item nav-link active" href="#" id="order-button">Order tickets</a>
+      </div>
+    </div>
+  </nav>
+    
+  <div class="text-center" id="bg">
+    <div class="card-body text-center" id="bg-text">
+      <img id="logo" src="../img/Logo.png"/>
+      <h1>
+        09.12-12.12
+      </h1>
+      <a href="#" id="more-info-button" class="btn btn-info" onclick="">More info</a>
+    </div>
+  </div>
+    
+  <div id="general-info-block">
+    <div class="container">
+      <div class="container-content">
+        <div id="first-info">
+          <h4 class="title">About the festival</h4>
+          </br>
+          <p class="info-text">WonderLand music festival, as with other “lands", was not built all at once. The first memories date from 2013, when a few friends at a party decided to 
+            create their own music festival, to be known as – Territory of Wonderful People! At the beginning, WonderLand was held on Trash Island at the Pacific Ocean. But who can hold
+            free people to one place? In 2014, WonderLand moved to the airport “Windonsen”. Every year, the land was growing, and the number of its citiziens too. In 2017, it was decided
+            to move WonderLand to the East Coast of New-York. The number of WonderLand people had grown from 1500 in the first year, to 16,000 unique visitors over four days in 2017.
+          </p>
         </div>
       </div>
-    </nav>
-  
+    </div>
+  </div>
+
+  <div id="gallery-block">
+    <h4 class="title">Gallery</h4>
     
+    </br>
+
+    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-1">
+        <img class="img" src="../img/img-1.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-2">
+        <img class="img" src="../img/img-2.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="1">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-3">
+        <img class="img" src="../img/img-3.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="2">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-4">
+        <img class="img" src="../img/img-4.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="3">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-5">
+        <img class="img" src="../img/img-5.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="4">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-6">
+        <img class="img" src="../img/img-6.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="5">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-7">
+        <img class="img" src="../img/img-7.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="6">
+      </div>
+      <div class="col-6 col-md-4 col-lg-3" class="gallery-img" id="img-8">
+        <img class="img" src="../img/img-8.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="7">
+      </div>
+    </div>  
+          
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+                <li data-target="#carouselExample" data-slide-to="3"></li>
+                <li data-target="#carouselExample" data-slide-to="4"></li>
+                <li data-target="#carouselExample" data-slide-to="5"></li>
+                <li data-target="#carouselExample" data-slide-to="6"></li>
+                <li data-target="#carouselExample" data-slide-to="7"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../img/img-1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-3.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-4.jpg" alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-5.jpg" alt="Fifth slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-6.jpg" alt="Six slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-7.jpg" alt="Seventh slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../img/img-8.jpg" alt="Eights slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+  <div id="order-block">
+    <div class="text-center" id="order">
+      <div class="card-body text-center" >
+      <h2>Order tickets now!</h2>
+      </br>
+      </br>
+      <a href="#" id="order-btn" class="btn btn-danger">Buy</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
   
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
-  </body>
-  
-  </html>
+</html>

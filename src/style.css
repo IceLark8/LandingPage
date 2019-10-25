@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+#header {
+    background-color: black !important;
+}
+
+#bg {
+    background: url('../img/main-img.jpg') center center ;
+    height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#bg-text {
+    opacity: 0;
+    color:#00C0C0;
+    display: block;
+}
+
+#bg-text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#bg-text .btn {
+    background-color: #00C0C0;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+#general-info-block {
+    width: 80%;
+    min-height: 100vh;
+    margin: 10% auto;
+    padding: 60px 0;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 35px;
+  }
+  
+  .info-text {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  
+  .general-info-card {
+    width: 50%;
+  }
+  
+  .container-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  
+  #first-info, #second-info {
+    width: 100%;
+    opacity: 0;
+    position: relative;
+    margin: auto;
+  }
+
+
+#gallery img {
+    height: 40vw;
+    width: 100%;
+    object-fit: cover;
+    margin: 15px auto;
+}
+
+
+#gallery-block {
+    width: 80vw;
+    margin: auto;
+}
+
+
+#order {
+    background: url('../img/order-img.jpg') center center ;
+    height: 100vh;
+    max-height: 100vh;
+    width: 100%;
+    color:#00C0C0;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px 20em 5000px black !important;
+    opacity: 0;
+}
+
+#order #order-btn {
+    text-align: center;
+    height: auto;
+    width: 15vw;
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+    border-radius: 17vh;
+}
+
+.modal-dialog {
+    height: 80vh !important;
+    width: 80vh !important;
+    max-width: 80vh !important;
+    margin: 10vh auto !important;
+}
+
+.modal-dialog .modal-content, #carouselExample, .carousel-inner, .carousel-item, .carousel-item img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.modal-content {
+    background-color: #303030 !important;
+}
+ 
+@media (min-width: 768px) {
+    #gallery img {
+        height: 25vw;
+        opacity: 0;
+    }
+
+    #order #order-btn {
+        height: auto;
+        width: 34vw;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+        border-radius: 17vh;
+    }
+}
+    
+@media (min-width: 992px) {
+    #gallery img {
+        height: 18vw;
+        opacity: 0;
+    }
+
+    #order #order-btn {
+        height: auto;
+        width: 34vw;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+        border-radius: 17vh;
+    }
+}
+
+.carousel-item  img {
+    height: 60vw;
+    object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    .carousel-item  img {
+        height: 350px;
+        opacity: 0;
+    }
+
+    #order #order-btn {
+        height: auto;
+        width: 34vw;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+        border-radius: 17vh;
+    }
+}
+
+@media (min-width: 350px) {
+    .carousel-item  img {
+        height: 350px;
+        opacity: 0;
+    }
+
+    #order #order-btn {
+        height: auto;
+        width: 34vw;
+        font-size: 30px;
+        font-weight: 700;
+        color:#fff;
+        border-radius: 17vh;
+    }
+}
